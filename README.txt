@@ -1,18 +1,53 @@
-Requirements
-	PHP 5.5
-	MySQL 5 database
+Online Movie Booking System (PHP & MySQL)
+-----------------------------------------
 
-Database Name : moviebook
+This is a web-based movie ticket booking platform developed in PHP and MySQL. It enables users to book tickets directly from the theater's website, offering a seamless experience similar to BookMyShow.
 
 Features:
-1. Login / Logout for customer.
-2. Seperate login for admin (location/hms-admin) - username: admin, password: admin
-3. online  manualy seat book
-4. payment method
-5. admin can Movie,Time,User etc. "add edit delete and select"
-6. admin can Manage the user and payment history
-7. Best Logical php code i
+---------
+- User and Admin login
+- Movie listing with showtimes
+- Seat selection (Silver, Gold, Platinum)
+- Email ticket confirmation using PHPMailer
+- Feedback system
+- Clean, mobile-responsive UI
 
-Note: 
-1. This project is for college and study only
-2. that is not use for Commercial project
+Technologies:
+-------------
+- PHP
+- MySQL
+- HTML, CSS, Bootstrap, JavaScript
+- PHPMailer
+
+Setup Instructions:
+-------------------
+1. Import `moviebook.sql` into MySQL.
+2. Edit database config in `db/config.php`.
+3. Place the project in `htdocs/` (XAMPP).
+4. Run `http://localhost/moviebook/` in your browser.
+
+Folder Structure:
+-----------------
+- admin/
+- user/
+- includes/
+- assets/
+- db/
+- confirmation.php
+- index.php
+
+Email Function:
+---------------
+Uses PHPMailer to send booking confirmation emails with ticket details.
+
+Future Enhancements:
+--------------------
+- Payment gateway
+- Ticket cancellation
+- PWA support
+- Language localization
+
+Developer:
+----------
+Afas Mohamed P M
+MCA - SCMS School of Technology and Management
