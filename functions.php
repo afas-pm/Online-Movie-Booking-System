@@ -64,8 +64,8 @@ function sendEmail($to, $subject, $message, $from = 'test@example.com')
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Gmail SMTP server
         $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = 'pachuafasmohamed@gmail.com';
-        $mail->Password = 'pwjxvnsxybpadatl';
+        $mail->Username = 'youremail@gmail.com';
+        $mail->Password = 'yourpassword';
         $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587; // TCP port to connect to (587 for TLS, 465 for SSL)
 
